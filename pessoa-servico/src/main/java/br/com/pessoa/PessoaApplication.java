@@ -33,6 +33,7 @@ public class PessoaApplication implements CommandLineRunner {
 	
 	@Autowired
 	private BCryptPasswordEncoder passwordEncoder;
+
 	
 
 	public static void main(String[] args) {
