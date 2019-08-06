@@ -9,9 +9,9 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import br.com.pessoa.db.h2.model.Usuario;
+import br.com.pessoa.dbpessoa.model.Usuario;
 import br.com.pessoa.enums.TipoPerfil;
-import br.com.pessoa.db.h2.repository.UsuarioRepository;
+import br.com.pessoa.dbpessoa.repository.UsuarioRepository;
 import br.com.pessoa.security.UserSS;
 
 @Service

@@ -1,7 +1,7 @@
 package br.com.pessoa.service;
 
-import br.com.pessoa.db.h2.model.Pessoa;
-import br.com.pessoa.db.h2.repository.PessoaRepository;
+import br.com.pessoa.dbpessoa.model.Pessoa;
+import br.com.pessoa.dbpessoa.repository.PessoaRepository;
 import br.com.pessoa.service.exceptions.ObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

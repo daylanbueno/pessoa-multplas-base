@@ -1,4 +1,4 @@
-package br.com.pessoa.db.h2.model;
+package br.com.pessoa.dbpessoa.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

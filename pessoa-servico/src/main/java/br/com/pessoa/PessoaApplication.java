@@ -6,18 +6,18 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
-import br.com.pessoa.db.h2.model.Contato;
-import br.com.pessoa.db.h2.model.Endereco;
-import br.com.pessoa.db.h2.model.Estado;
-import br.com.pessoa.db.h2.model.Municipio;
-import br.com.pessoa.db.h2.model.Pessoa;
-import br.com.pessoa.db.h2.model.Usuario;
+import br.com.pessoa.dbpessoa.model.Contato;
+import br.com.pessoa.dbpessoa.model.Endereco;
+import br.com.pessoa.dbpessoa.model.Estado;
+import br.com.pessoa.dbpessoa.model.Municipio;
+import br.com.pessoa.dbpessoa.model.Pessoa;
+import br.com.pessoa.dbpessoa.model.Usuario;
 import br.com.pessoa.enums.TipoPerfil;
 import br.com.pessoa.enums.TipoPessoa;
 import br.com.pessoa.enums.TipoSexo;
-import br.com.pessoa.db.h2.repository.MunicipioRepository;
-import br.com.pessoa.db.h2.repository.PessoaRepository;
-import br.com.pessoa.db.h2.repository.UsuarioRepository;
+import br.com.pessoa.dbpessoa.repository.MunicipioRepository;
+import br.com.pessoa.dbpessoa.repository.PessoaRepository;
+import br.com.pessoa.dbpessoa.repository.UsuarioRepository;
 
 @SpringBootApplication
 public class PessoaApplication implements CommandLineRunner {

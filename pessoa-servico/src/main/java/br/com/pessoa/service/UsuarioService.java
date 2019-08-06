@@ -9,11 +9,11 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import br.com.pessoa.dto.UsuarioDto;
-import br.com.pessoa.db.h2.model.Pessoa;
-import br.com.pessoa.db.h2.model.Usuario;
+import br.com.pessoa.dbpessoa.model.Pessoa;
+import br.com.pessoa.dbpessoa.model.Usuario;
 import br.com.pessoa.enums.TipoPerfil;
-import br.com.pessoa.db.h2.repository.PessoaRepository;
-import br.com.pessoa.db.h2.repository.UsuarioRepository;
+import br.com.pessoa.dbpessoa.repository.PessoaRepository;
+import br.com.pessoa.dbpessoa.repository.UsuarioRepository;
 import br.com.pessoa.service.exceptions.NegocioException;
 
 @Service

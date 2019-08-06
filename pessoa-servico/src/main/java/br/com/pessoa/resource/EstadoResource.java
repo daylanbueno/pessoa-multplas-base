@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.pessoa.db.h2.model.Estado;
+import br.com.pessoa.dbpessoa.model.Estado;
 import br.com.pessoa.service.EstadoService;
 
 @RestController

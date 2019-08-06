@@ -1,6 +1,6 @@
 package br.com.pessoa.resource;
 
-import br.com.pessoa.db.h2.model.Municipio;
+import br.com.pessoa.dbpessoa.model.Municipio;
 import br.com.pessoa.service.MunicipioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
